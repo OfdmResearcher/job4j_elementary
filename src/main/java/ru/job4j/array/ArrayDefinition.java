@@ -10,5 +10,14 @@ public class ArrayDefinition {
         System.out.println("surnames.length = " + surnames.length);
         System.out.println("prices.length = " + prices.length);
 
+        String[] names = new String[4];
+        names[0] = "Tom Cruise";
+        names[1] = "Brad Pitt";
+        names[2] = "Arnold Schwarzenegger";
+        names[3] = "Sylvester Stallone";
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
     }
 }
